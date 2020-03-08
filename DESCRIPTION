@@ -1,0 +1,17 @@
+Package: learylib
+Title: Personal R package for Matt Leary
+Version: 0.0.1
+Authors@R: 
+    person(given = "Matt",
+           family = "Leary",
+           role = c("aut", "cre"),
+           email = "matt.leary@protonmail.com")
+Maintainer: Matt Leary <matt.leary@protonmail.com>
+Description: R functions & templates for my personal use.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.0.2
+Imports: 
+    rmarkdown,
+    ggplot2
