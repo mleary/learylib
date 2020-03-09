@@ -4,8 +4,7 @@
 #' @param base_family base font family
 #' @param ... Other arguments passed to \code{theme_minimal}
 #'
-#'
-#' @details This is a draft veresion and will be updated as I improve my package
+#' @details This is a draft version and will be updated as I improve my package
 #'     development skills.  It does not currently match the Roboto font used in
 #'     my rmarkdown template (leary_html), but currently uses Helvetica font.
 #'
