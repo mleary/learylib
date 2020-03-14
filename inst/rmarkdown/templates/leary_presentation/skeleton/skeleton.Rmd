@@ -1,0 +1,36 @@
+---
+title: "May I present to you, my presentation"
+subtitle: "Please let me introduce myself"
+author: "Matt Leary"
+date: "XX, XXXXX (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    css: ["default", "leary-theme.css", "fonts.css"]
+    seal: false 
+    nature:
+      highlightStyle: dracula
+      highlightLanguage: ["r", "yaml", "markdown"]
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+class: title-slide, center, bottom
+
+# `r rmarkdown::metadata$title`
+
+### `r params$author`  |  `r params$date`
+
+---
+class: center, middle
+
+# xaringan
+
+### /ʃaː.'riŋ.ɡan/
+
+---

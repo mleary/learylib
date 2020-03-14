@@ -26,7 +26,7 @@ This is a helper to let me see the different functions offered by a
 \examples{
 library(learylib)
 
-see_pkg_funcs(janitor)
+see_pkg_funcs(learylib)
 
 
 }
