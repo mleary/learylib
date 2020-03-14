@@ -13,7 +13,7 @@
 #'@examples
 #' library(learylib)
 #'
-#' see_pkg_funcs(janitor)
+#' see_pkg_funcs(learylib)
 #'
 #'
 #' @export

@@ -14,5 +14,5 @@ Custom xarignan presentation template
 }
 \details{
 to use the leary_presentation template, simply start a new file and
-    select From Tempplate > Leary Presentation
+    select From Template > Leary Presentation
 }

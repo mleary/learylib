@@ -19,8 +19,8 @@ development.
 
 ## Installation
 
-You can install the latest version of learylib from my Githiub with the
-**devtools** package. Given the limited scope & use of **learlib**, it
+You can install the latest version of learylib from my Github with the
+**devtools** package. Given the limited scope & use of **learylib**, it
 will always live on Github.
 
 ``` r
