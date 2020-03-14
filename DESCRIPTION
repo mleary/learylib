@@ -14,4 +14,10 @@ LazyData: true
 RoxygenNote: 7.0.2
 Imports: 
     rmarkdown,
-    ggplot2
+    ggplot2,
+    xaringan
+Suggests: 
+    spelling
+Language: en-US
+URL: https://github.com/mleary/learylib
+BugReports: https://github.com/mleary/learylib/issues

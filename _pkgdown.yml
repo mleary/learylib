@@ -1,0 +1,27 @@
+destination: docs
+
+home:
+  strip_header: true
+
+reference:
+  - title: "Rmarkdown templates"
+    desc: "Formats for producing documents, slides, etc."
+    contents:
+      - leary_html
+      - leary_presentation
+  - title: "Helper functions"
+    desc: "Some basic helper functions I use from time to time"
+    contents:
+      - see_pkg_funcs
+  - title: "Plotting functions"
+    desc: "ggplot themes & plotting functions"
+    contents:
+      - theme_leary
+
+navbar:
+  type: default
+  left:
+    - text: Functions and data
+      href: reference/index.html
+    - text: Releases
+      href: news/index.html
