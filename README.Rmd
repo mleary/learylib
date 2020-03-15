@@ -59,3 +59,7 @@ library(learylib)
 
 see_pkg_funcs(learylib)
 ```
+
+## Contributions
+
+I can't imagine why anyone would contribute to this, but hey it would be cool if you did!  Feel free to submit a pull request or contact me if you want to add something.

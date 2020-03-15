@@ -1,4 +1,4 @@
-#' Custom xarignan presentation template
+#' Personalized xarignan::moon_reader presentation template
 #'
 #' @param None Template has all parameters set in the yaml header
 #'

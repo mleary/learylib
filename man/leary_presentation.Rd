@@ -2,7 +2,7 @@
 % Please edit documentation in R/leary_presentation.R
 \name{leary_presentation}
 \alias{leary_presentation}
-\title{Custom xarignan presentation template}
+\title{Personalized xarignan::moon_reader presentation template}
 \usage{
 leary_presentation()
 }
@@ -10,7 +10,7 @@ leary_presentation()
 \item{None}{Template has all parameters set in the yaml header}
 }
 \description{
-Custom xarignan presentation template
+Personalized xarignan::moon_reader presentation template
 }
 \details{
 to use the leary_presentation template, simply start a new file and

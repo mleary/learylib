@@ -9,10 +9,14 @@ reference:
     contents:
       - leary_html
       - leary_presentation
+
   - title: "Helper functions"
     desc: "Some basic helper functions I use from time to time"
     contents:
       - see_pkg_funcs
+      - see_lib_paths
+      - not_in
+
   - title: "Plotting functions"
     desc: "ggplot themes & plotting functions"
     contents:
@@ -21,7 +25,7 @@ reference:
 navbar:
   type: default
   left:
-    - text: Functions and data
+    - text: Functions & templates
       href: reference/index.html
     - text: Releases
       href: news/index.html

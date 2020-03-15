@@ -2,5 +2,7 @@
 
 export(leary_html)
 export(leary_presentation)
+export(not_in)
+export(see_lib_paths)
 export(see_pkg_funcs)
 export(theme_leary)

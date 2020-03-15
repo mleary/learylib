@@ -2,7 +2,7 @@
 #'
 #' @param base_size base font size
 #' @param base_family base font family
-#' @param ... Other arguments passed to \code{theme_minimal}
+#' @param ... Other arguments passed to \code{theme_leary}
 #'
 #' @details This is a draft version and will be updated as I improve my package
 #'     development skills.  It does not currently match the Roboto font used in

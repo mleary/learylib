@@ -11,7 +11,7 @@ theme_leary(base_size = 12, base_family = "Helvetica")
 
 \item{base_family}{base font family}
 
-\item{...}{Other arguments passed to \code{theme_minimal}}
+\item{...}{Other arguments passed to \code{theme_leary}}
 }
 \description{
 Minimal ggplot2 theme

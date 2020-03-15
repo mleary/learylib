@@ -15,17 +15,15 @@
 #'
 #' see_pkg_funcs(learylib)
 #'
-#'
 #' @export
 
 
-see_pkg_funcs <-function(package, all.names = FALSE, pattern){
+see_pkg_funcs <-function(package, all.names = FALSE){
   package <- deparse(substitute(package))
   tryCatch(
     ls(
       pos = paste("package", package, sep = ":"),
-      all.names = all.names,
-      pattern = pattern
+      all.names = all.names
     ),
   error = function(e) message(paste("Error:  Is the", package, "packge installed/loaded?"))
   )

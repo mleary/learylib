@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Personalized rmarkdow::html_document template — leary_html • learylib</title>
+<title>Print the library path(s) from .libPaths() — see_lib_paths • learylib</title>
 
 <!-- favicons -->
 <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
@@ -42,8 +42,8 @@
 
 
 
-<meta property="og:title" content="Personalized rmarkdow::html_document template — leary_html" />
-<meta property="og:description" content="Personalized rmarkdow::html_document template" />
+<meta property="og:title" content="Print the library path(s) from .libPaths() — see_lib_paths" />
+<meta property="og:description" content="Print the library path(s) from .libPaths()" />
 <meta property="og:image" content="/logo.png" />
 <meta name="twitter:card" content="summary" />
 
@@ -110,36 +110,37 @@
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>Personalized rmarkdow::html_document template</h1>
-    <small class="dont-index">Source: <a href='https://github.com/mleary/learylib/blob/master/R/leary_html.R'><code>R/leary_html.R</code></a></small>
-    <div class="hidden name"><code>leary_html.Rd</code></div>
+    <h1>Print the library path(s) from .libPaths()</h1>
+    <small class="dont-index">Source: <a href='https://github.com/mleary/learylib/blob/master/R/see_lib_paths.R'><code>R/see_lib_paths.R</code></a></small>
+    <div class="hidden name"><code>see_lib_paths.Rd</code></div>
     </div>
 
     <div class="ref-description">
-    <p>Personalized rmarkdow::html_document template</p>
+    <p>Print the library path(s) from .libPaths()</p>
     </div>
 
-    <pre class="usage"><span class='fu'>leary_html</span>(<span class='kw'>toc</span> <span class='kw'>=</span> <span class='fl'>TRUE</span>, <span class='no'>...</span>)</pre>
-
-    <h2 class="hasAnchor" id="arguments"><a class="anchor" href="#arguments"></a>Arguments</h2>
-    <table class="ref-arguments">
-    <colgroup><col class="name" /><col class="desc" /></colgroup>
-    <tr>
-      <th>toc</th>
-      <td><p>if TRUE, displays the table of contents</p></td>
-    </tr>
-    <tr>
-      <th>...</th>
-      <td><p>additional arguments provided to \@codehtml_document</p></td>
-    </tr>
-    </table>
+    <pre class="usage"><span class='fu'>see_lib_paths</span>()</pre>
 
 
+    <h2 class="hasAnchor" id="details"><a class="anchor" href="#details"></a>Details</h2>
+
+    <p>This is a helper to let me see the different functions offered by a
+   package. NOTE: The package most be installed &amp; loaded (i.e. library(janitor))</p>
+
+    <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
+    <pre class="examples"><div class='input'><span class='fu'><a href='https://rdrr.io/r/base/library.html'>library</a></span>(<span class='no'>learylib</span>)
+
+<span class='fu'>see_lib_paths</span>() <span class='co'>#prints all library path(s)</span></div><div class='output co'>#&gt; Using libraries at paths:
+#&gt; - /private/var/folders/y4/j6bl6_0d2kzfbqdmyt2ksnnh0000gn/T/Rtmpiu8gKp/temp_libpath2b872e3edb0b
+#&gt; - /Library/Frameworks/R.framework/Versions/3.6/Resources/library</div><div class='input'>
+
+</div></pre>
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="sidebar">
     <h2>Contents</h2>
     <ul class="nav nav-pills nav-stacked">
-      <li><a href="#arguments">Arguments</a></li>
+      <li><a href="#details">Details</a></li>
+      <li><a href="#examples">Examples</a></li>
     </ul>
 
   </div>
