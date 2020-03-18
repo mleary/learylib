@@ -4,6 +4,8 @@
 #' @param base_family base font family
 #' @param ... Other arguments passed to \code{theme_leary}
 #'
+#' @importFrom ggplot2 element_text rel
+#'
 #' @details This is a draft version and will be updated as I improve my package
 #'     development skills.  It does not currently match the Roboto font used in
 #'     my rmarkdown template (leary_html), but currently uses Helvetica font.
@@ -21,7 +23,8 @@
 #' @export
 
 theme_leary <- function(base_size = 12,
-                        base_family = "Helvetica" ){
+                        base_family = "Helvetica",
+                        ...){
   plot.out <-
     ggplot2::theme_light(base_size = base_size, base_family=base_family) +
     ggplot2::theme(title = element_text(colour = "#132257"),

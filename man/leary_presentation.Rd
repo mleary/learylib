@@ -6,9 +6,6 @@
 \usage{
 leary_presentation()
 }
-\arguments{
-\item{None}{Template has all parameters set in the yaml header}
-}
 \description{
 Personalized xarignan::moon_reader presentation template
 }

@@ -77,7 +77,7 @@
 </h2>
 <!-- badges: start -->
 
-<p>The goal of <strong>learylib</strong> is to easily manage a few custom functions and themes I find useful. A secondary goal is to explore package development in R. This is why I am going overboard and exploring the use of <strong>pkgdown</strong>, <strong>usethis</strong>, &amp; <strong>devtools</strong> for more complex package development.</p>
+<p>The goal of <strong>learylib</strong> is to easily manage a few personal functions and themes I find useful. A secondary goal is to explore package development in R, using <strong>pkgdown</strong>, <strong>usethis</strong>, &amp; <strong>devtools</strong> to practice fully building out a package.</p>
 </div>
 <div id="installation" class="section level2">
 <h2 class="hasAnchor">
@@ -97,7 +97,7 @@
 <a class="sourceLine" id="cb2-5" data-line-number="5"><span class="kw"><a href="https://ggplot2.tidyverse.org/reference/ggplot.html">ggplot</a></span>(mtcars, <span class="kw"><a href="https://ggplot2.tidyverse.org/reference/aes.html">aes</a></span>(wt, mpg)) <span class="op">+</span></a>
 <a class="sourceLine" id="cb2-6" data-line-number="6"><span class="st">     </span><span class="kw"><a href="https://ggplot2.tidyverse.org/reference/geom_point.html">geom_point</a></span>() <span class="op">+</span></a>
 <a class="sourceLine" id="cb2-7" data-line-number="7"><span class="st">     </span><span class="kw"><a href="https://ggplot2.tidyverse.org/reference/labs.html">labs</a></span>(<span class="dt">title =</span> <span class="st">"A basic example plot"</span>,</a>
-<a class="sourceLine" id="cb2-8" data-line-number="8">          <span class="dt">subtitle =</span> <span class="st">"A little more detail in substitle?"</span>) <span class="op">+</span></a>
+<a class="sourceLine" id="cb2-8" data-line-number="8">          <span class="dt">subtitle =</span> <span class="st">"A little more detail in subtitle?"</span>) <span class="op">+</span></a>
 <a class="sourceLine" id="cb2-9" data-line-number="9"><span class="st">     </span><span class="kw"><a href="reference/theme_leary.html">theme_leary</a></span>()</a></code></pre></div>
 <p><img src="reference/figures/README-example%201-1.png" width="70%"></p>
 <p>Using <code>see_pkg_funcs</code> to see all the functions within a package.</p>
@@ -105,7 +105,32 @@
 <a class="sourceLine" id="cb3-2" data-line-number="2"></a>
 <a class="sourceLine" id="cb3-3" data-line-number="3"><span class="kw"><a href="reference/see_pkg_funcs.html">see_pkg_funcs</a></span>(learylib)</a>
 <a class="sourceLine" id="cb3-4" data-line-number="4"><span class="co">#&gt; [1] "leary_html"         "leary_presentation" "not_in"            </span></a>
-<a class="sourceLine" id="cb3-5" data-line-number="5"><span class="co">#&gt; [4] "see_lib_paths"      "see_pkg_funcs"      "theme_leary"</span></a></code></pre></div>
+<a class="sourceLine" id="cb3-5" data-line-number="5"><span class="co">#&gt; [4] "see_lib_paths"      "see_pkg_funcs"      "theme_leary"       </span></a>
+<a class="sourceLine" id="cb3-6" data-line-number="6"><span class="co">#&gt; [7] "update_rprofile"</span></a></code></pre></div>
+</div>
+<div id="resources-used" class="section level2">
+<h2 class="hasAnchor">
+<a href="#resources-used" class="anchor"></a>Resources used</h2>
+<p>Shout out to Hadley Wickham, Jenny Bryan, Jim Hester, and the many other developers building R packages that help people build R packages. I would not have gotten this far without those amazing tools to make the process simple. I created the initial version of this package in a matter of days, with little background in development. If I can do it, others can as well. And it was fun! In case anyone sees this who is considering building their own package, here are some resources I found helpful.</p>
+<ul>
+<li><p><a href="%22http://r-pkgs.had.co.nz%22">R packages</a> by Hadley Wickham - He wrote the book on writing R packages (literally)</p></li>
+<li>
+<p>R Package Documentation (built with <code>pkgdown</code>)</p>
+<ul>
+<li>
+<a href="%22https://usethis.r-lib.org%22"><code>usethis</code></a> &amp; <a href="%22https://devtools.r-lib.org%22"><code>devtools</code></a> for package development.</li>
+<li>
+<a href="https://pkgdown.r-lib.org"><code>pkgdown</code></a> easily create a website for your package &amp; documentation</li>
+</ul>
+</li>
+<li>
+<p>Blogs</p>
+<ul>
+<li>
+<a href="%22https://hilaryparker.com/2014/04/29/writing-an-r-package-from-scratch/%22">Writing an R package from Scratch</a> by Hilary Parker - Great resource I have gone back to many times. Helped me greatly the first time I looked into package development and I still Google to find this exact blog.</li>
+</ul>
+</li>
+</ul>
 </div>
 <div id="contributions" class="section level2">
 <h2 class="hasAnchor">

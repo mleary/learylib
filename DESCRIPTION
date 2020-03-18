@@ -16,7 +16,8 @@ Imports:
     rmarkdown,
     ggplot2,
     xaringan,
-    dplyr
+    dplyr,
+    readr
 Suggests: 
     spelling
 Language: en-US

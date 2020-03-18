@@ -11,10 +11,6 @@ see_pkg_funcs(package, all.names = FALSE)
 
 \item{all.names}{logical value. If TRUE, all object names are returned.
 If FALSE, names which begin with a . are omitted.}
-
-\item{pattern}{an optional regular expression. Only names matching pattern
-are returned. glob2rx can be used to convert wildcard patterns to regular
-expressions.}
 }
 \description{
 Print functions within a package

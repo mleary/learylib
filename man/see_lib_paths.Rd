@@ -10,13 +10,12 @@ see_lib_paths()
 Print the library path(s) from .libPaths()
 }
 \details{
-This is a helper to let me see the different functions offered by a
-   package. NOTE: The package most be installed & loaded (i.e. library(janitor))
+This is a helper to "pretty print" the library paths for my existing
+    session.
 }
 \examples{
 library(learylib)
 
 see_lib_paths() #prints all library path(s)
-
 
 }

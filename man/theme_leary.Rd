@@ -4,7 +4,7 @@
 \alias{theme_leary}
 \title{Minimal ggplot2 theme}
 \usage{
-theme_leary(base_size = 12, base_family = "Helvetica")
+theme_leary(base_size = 12, base_family = "Helvetica", ...)
 }
 \arguments{
 \item{base_size}{base font size}

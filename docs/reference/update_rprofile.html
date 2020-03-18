@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Print functions within a package — see_pkg_funcs • learylib</title>
+<title>A function to update my .Rprofile from a version on Github — update_rprofile • learylib</title>
 
 <!-- favicons -->
 <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
@@ -42,8 +42,8 @@
 
 
 
-<meta property="og:title" content="Print functions within a package — see_pkg_funcs" />
-<meta property="og:description" content="Print functions within a package" />
+<meta property="og:title" content="A function to update my .Rprofile from a version on Github — update_rprofile" />
+<meta property="og:description" content="A function to update my .Rprofile from a version on Github" />
 <meta property="og:image" content="/logo.png" />
 <meta name="twitter:card" content="summary" />
 
@@ -110,42 +110,46 @@
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>Print functions within a package</h1>
-    <small class="dont-index">Source: <a href='https://github.com/mleary/learylib/blob/master/R/see_pkg_funcs.R'><code>R/see_pkg_funcs.R</code></a></small>
-    <div class="hidden name"><code>see_pkg_funcs.Rd</code></div>
+    <h1>A function to update my .Rprofile from a version on Github</h1>
+    <small class="dont-index">Source: <a href='https://github.com/mleary/learylib/blob/master/R/update_rprofile.R'><code>R/update_rprofile.R</code></a></small>
+    <div class="hidden name"><code>update_rprofile.Rd</code></div>
     </div>
 
     <div class="ref-description">
-    <p>Print functions within a package</p>
+    <p>A function to update my .Rprofile from a version on Github</p>
     </div>
 
-    <pre class="usage"><span class='fu'>see_pkg_funcs</span>(<span class='no'>package</span>, <span class='kw'>all.names</span> <span class='kw'>=</span> <span class='fl'>FALSE</span>)</pre>
+    <pre class="usage"><span class='fu'>update_rprofile</span>(
+  <span class='kw'>local.rprofile.path</span> <span class='kw'>=</span> <span class='st'>"~/.Rprofile"</span>,
+  <span class='kw'>url</span> <span class='kw'>=</span> <span class='st'>"https://raw.githubusercontent.com/mleary/dotfiles/master/.Rprofile"</span>
+)</pre>
 
     <h2 class="hasAnchor" id="arguments"><a class="anchor" href="#arguments"></a>Arguments</h2>
     <table class="ref-arguments">
     <colgroup><col class="name" /><col class="desc" /></colgroup>
     <tr>
-      <th>package</th>
-      <td><p>R package to inspect</p></td>
+      <th>local.rprofile.path</th>
+      <td><p>character value.  Path to local .Rprofile.  Defaults to
+commmon "~/.Rprofile".</p></td>
     </tr>
     <tr>
-      <th>all.names</th>
-      <td><p>logical value. If TRUE, all object names are returned.
-If FALSE, names which begin with a . are omitted.</p></td>
+      <th>url</th>
+      <td><p>character value. URL to RAW github text file with Rprofile template</p></td>
     </tr>
     </table>
 
     <h2 class="hasAnchor" id="details"><a class="anchor" href="#details"></a>Details</h2>
 
-    <p>This is a helper to let me see the different functions offered by a
-   package. NOTE: The package most be installed &amp; loaded (i.e. library(janitor))</p>
+    <p>This function takes a template Rprofile text file on Github
+    (really, this could be URL to a valid file, but Github seems most logical)
+    and updates the current working sessions .Rprofile.  Note that it checks
+    for the file at the common "~/.Rprofile" location, but can be manually adjusted
+    for projects, etc.</p>
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
     <pre class="examples"><div class='input'><span class='fu'><a href='https://rdrr.io/r/base/library.html'>library</a></span>(<span class='no'>learylib</span>)
 
-<span class='fu'>see_pkg_funcs</span>(<span class='no'>learylib</span>)</div><div class='output co'>#&gt; [1] "leary_html"         "leary_presentation" "not_in"            
-#&gt; [4] "see_lib_paths"      "see_pkg_funcs"      "theme_leary"       
-#&gt; [7] "update_rprofile"   </div><div class='input'>
+<span class='fu'>update_rprofile</span>()  <span class='co'># using default settings</span></div><div class='output co'>#&gt; <span class='message'>Rprofile Updated</span></div><div class='input'>
 </div></pre>
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="sidebar">

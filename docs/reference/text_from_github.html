@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Print functions within a package — see_pkg_funcs • learylib</title>
+<title>A function to read text from github (or really any site) — text_from_github • learylib</title>
 
 <!-- favicons -->
 <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
@@ -42,8 +42,8 @@
 
 
 
-<meta property="og:title" content="Print functions within a package — see_pkg_funcs" />
-<meta property="og:description" content="Print functions within a package" />
+<meta property="og:title" content="A function to read text from github (or really any site) — text_from_github" />
+<meta property="og:description" content="A function to read text from github (or really any site)" />
 <meta property="og:image" content="/logo.png" />
 <meta name="twitter:card" content="summary" />
 
@@ -110,50 +110,38 @@
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>Print functions within a package</h1>
-    <small class="dont-index">Source: <a href='https://github.com/mleary/learylib/blob/master/R/see_pkg_funcs.R'><code>R/see_pkg_funcs.R</code></a></small>
-    <div class="hidden name"><code>see_pkg_funcs.Rd</code></div>
+    <h1>A function to read text from github (or really any site)</h1>
+    <small class="dont-index">Source: <a href='https://github.com/mleary/learylib/blob/master/R/utils.R'><code>R/utils.R</code></a></small>
+    <div class="hidden name"><code>text_from_github.Rd</code></div>
     </div>
 
     <div class="ref-description">
-    <p>Print functions within a package</p>
+    <p>A function to read text from github (or really any site)</p>
     </div>
 
-    <pre class="usage"><span class='fu'>see_pkg_funcs</span>(<span class='no'>package</span>, <span class='kw'>all.names</span> <span class='kw'>=</span> <span class='fl'>FALSE</span>)</pre>
+    <pre class="usage"><span class='fu'>text_from_github</span>(<span class='no'>url</span>)</pre>
 
     <h2 class="hasAnchor" id="arguments"><a class="anchor" href="#arguments"></a>Arguments</h2>
     <table class="ref-arguments">
     <colgroup><col class="name" /><col class="desc" /></colgroup>
     <tr>
-      <th>package</th>
-      <td><p>R package to inspect</p></td>
-    </tr>
-    <tr>
-      <th>all.names</th>
-      <td><p>logical value. If TRUE, all object names are returned.
-If FALSE, names which begin with a . are omitted.</p></td>
+      <th>url</th>
+      <td><p>URL to RAW github text file</p></td>
     </tr>
     </table>
 
     <h2 class="hasAnchor" id="details"><a class="anchor" href="#details"></a>Details</h2>
 
-    <p>This is a helper to let me see the different functions offered by a
-   package. NOTE: The package most be installed &amp; loaded (i.e. library(janitor))</p>
+    <p>This is a helper function for geting text files from my Githb repo.
+    It is currently used in the update_rprofile function and could be used in
+    future functions such as update_gitignore.</p>
 
-    <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
-    <pre class="examples"><div class='input'><span class='fu'><a href='https://rdrr.io/r/base/library.html'>library</a></span>(<span class='no'>learylib</span>)
-
-<span class='fu'>see_pkg_funcs</span>(<span class='no'>learylib</span>)</div><div class='output co'>#&gt; [1] "leary_html"         "leary_presentation" "not_in"            
-#&gt; [4] "see_lib_paths"      "see_pkg_funcs"      "theme_leary"       
-#&gt; [7] "update_rprofile"   </div><div class='input'>
-</div></pre>
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="sidebar">
     <h2>Contents</h2>
     <ul class="nav nav-pills nav-stacked">
       <li><a href="#arguments">Arguments</a></li>
       <li><a href="#details">Details</a></li>
-      <li><a href="#examples">Examples</a></li>
     </ul>
 
   </div>
