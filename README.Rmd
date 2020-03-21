@@ -30,10 +30,9 @@ You can install the latest version of learylib from my Github with the **devtool
 
 ``` r
 install.packages("devtools")
-devtools::install_github("https://github.com/mleary/learylib")
+devtools::install_github("mleary/learylib")
 
 ```
-
 
 ## Usage
 
@@ -66,11 +65,11 @@ Shout out to Hadley Wickham, Jenny Bryan, Jim Hester, and the many other develop
 * [R packages]("http://r-pkgs.had.co.nz") by Hadley Wickham - He wrote the book on writing R packages (literally)
 
 * R Package Documentation (built with `pkgdown`)
-  * [usethis]("https://usethis.r-lib.org") & [devtools]("https://devtools.r-lib.org") for package development.
+  * Two super helpful pacakges - [usethis]("https://usethis.r-lib.org") & [devtools]("https://devtools.r-lib.org") for package development.
   * [pkgdown](https://pkgdown.r-lib.org) easily create a website for your package & documentation
   
 * Blogs
-  * [Writing an R package from Scratch]("https://hilaryparker.com/2014/04/29/writing-an-r-package-from-scratch/") by Hilary Parker - Great resource I have gone back to many times.  Helped me greatly the first time I looked into package development and I still Google to find this exact blog.
+  * General blog post on package development- [Writing an R package fromScratch]("https://hilaryparker.com/2014/04/29/writing-an-r-package-from-scratch/") by Hilary Parker - Great resource I have gone back to many times.  Helped me greatly the first time I looked into package development and I still Google to find this exact blog.
 
 ## Contributions
 
