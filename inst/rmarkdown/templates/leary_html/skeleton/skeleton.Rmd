@@ -18,6 +18,10 @@ knitr::opts_chunk$set(echo = TRUE)
 knitr::opts_chunk$set(warning = TRUE)
 knitr::opts_chunk$set(message = TRUE)
 
+library(tidyverse)
+library(learylib)
+
+theme_set(theme_leary())
 ```
 
 # Setup
