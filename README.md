@@ -24,7 +24,7 @@ will always live on Github.
 
 ``` r
 install.packages("devtools")
-devtools::install_github("https://github.com/mleary/learylib")
+devtools::install_github("mleary/learylib")
 ```
 
 ## Usage
@@ -72,7 +72,8 @@ helpful. Also for me when I forget where I found something.
 
   - R Package Documentation (built with `pkgdown`)
     
-      - [usethis](%22https://usethis.r-lib.org%22) &
+      - Two super helpful pacakges -
+        [usethis](%22https://usethis.r-lib.org%22) &
         [devtools](%22https://devtools.r-lib.org%22) for package
         development.
       - [pkgdown](https://pkgdown.r-lib.org) easily create a website for
@@ -80,8 +81,8 @@ helpful. Also for me when I forget where I found something.
 
   - Blogs
     
-      - [Writing an R package from
-        Scratch](%22https://hilaryparker.com/2014/04/29/writing-an-r-package-from-scratch/%22)
+      - General blog post on package development- [Writing an R package
+        fromScratch](%22https://hilaryparker.com/2014/04/29/writing-an-r-package-from-scratch/%22)
         by Hilary Parker - Great resource I have gone back to many
         times. Helped me greatly the first time I looked into package
         development and I still Google to find this exact blog.
