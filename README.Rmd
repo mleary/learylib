@@ -65,11 +65,12 @@ Shout out to Hadley Wickham, Jenny Bryan, Jim Hester, and the many other develop
 * [R packages]("http://r-pkgs.had.co.nz") by Hadley Wickham - He wrote the book on writing R packages (literally)
 
 * R Package Documentation (built with `pkgdown`)
-  * Two super helpful pacakges - [usethis]("https://usethis.r-lib.org") & [devtools]("https://devtools.r-lib.org") for package development.
+  * [usethis](https://usethis.r-lib.org) for package development.
+  * [devtools](https://devtools.r-lib.org) for package development.
   * [pkgdown](https://pkgdown.r-lib.org) easily create a website for your package & documentation
   
 * Blogs
-  * General blog post on package development- [Writing an R package fromScratch]("https://hilaryparker.com/2014/04/29/writing-an-r-package-from-scratch/") by Hilary Parker - Great resource I have gone back to many times.  Helped me greatly the first time I looked into package development and I still Google to find this exact blog.
+  * [Writing an R package fromScratch](https://hilaryparker.com/2014/04/29/writing-an-r-package-from-scratch/) by Hilary Parker - Great resource I have gone back to many times.  Helped me greatly the first time I looked into package development and I still Google to find this exact blog.
 
 ## Contributions
 
