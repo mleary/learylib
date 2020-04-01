@@ -13,7 +13,7 @@ text_from_github(url)
 A function to read text from github (or really any site)
 }
 \details{
-This is a helper function for geting text files from my Githb repo.
+This is a helper function for geting text files from my Github repo.
     It is currently used in the update_rprofile function and could be used in
     future functions such as update_gitignore.
 }

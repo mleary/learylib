@@ -2,7 +2,7 @@
 % Please edit documentation in R/leary_html.R
 \name{leary_html}
 \alias{leary_html}
-\title{Personalized rmarkdow::html_document template}
+\title{Personalized rmarkdown::html_document template}
 \usage{
 leary_html(toc = TRUE, ...)
 }
@@ -12,5 +12,5 @@ leary_html(toc = TRUE, ...)
 \item{...}{additional arguments provided to \@code{html_document}}
 }
 \description{
-Personalized rmarkdow::html_document template
+Personalized rmarkdown::html_document template
 }

@@ -26,7 +26,7 @@ theme_leary <- function(base_size = 12,
                         base_family = "Helvetica",
                         ...){
   plot.out <-
-    ggplot2::theme_light(base_size = base_size, base_family=base_family) +
+    ggplot2::theme_minimal(base_size = base_size, base_family=base_family) +
     ggplot2::theme(title = element_text(colour = "#132257"),
                    plot.title = element_text(size = rel(2.0),
                                                 hjust = 0, face = "bold"),

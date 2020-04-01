@@ -2,7 +2,7 @@
 #'
 #' @param url URL to RAW github text file
 #'
-#' @details This is a helper function for geting text files from my Githb repo.
+#' @details This is a helper function for geting text files from my Github repo.
 #'     It is currently used in the update_rprofile function and could be used in
 #'     future functions such as update_gitignore.
 #'

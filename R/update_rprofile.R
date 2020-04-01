@@ -1,7 +1,7 @@
 #' A function to update my .Rprofile from a version on Github
 #'
 #' @param local.rprofile.path character value.  Path to local .Rprofile.  Defaults to
-#'     commmon "~/.Rprofile".
+#'     common "~/.Rprofile".
 #' @param url character value. URL to RAW github text file with Rprofile template
 #'
 #' @details This function takes a template Rprofile text file on Github

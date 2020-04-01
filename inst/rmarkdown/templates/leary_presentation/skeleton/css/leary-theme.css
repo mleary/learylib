@@ -1,0 +1,46 @@
+/*
+#132257 - Spurs Blue
+#2e2e2e - Dark Grey
+#04b8a6 - Green color (spurs Amsterdam 3rd kit)
+#FFFFFF - White
+*/
+
+.title-slide {
+  background-image: url(../images/title-slide-image.png);
+  background-position: top;
+  background-size: 1300px 500px;
+  background-color: #132257;
+}
+
+.title-slide h1 {
+  font-family: 'Cabin', sans-serif;
+  color: #FFFFFF;
+  font-size: 3em;
+  padding-top: 3em;
+  line-height: 0.1em;
+  padding-bottom: .1em;
+  word-wrap: break-word;
+}
+
+.title-slide h3 {
+  font-family: 'Cabin', sans-serif;
+  color: #FFFFFF;
+  font-size: 1.5em;
+  padding-top: 0.1em;
+  line-height: 0.1em;
+  padding-bottom: .1em;
+  word-wrap: break-word;
+}
+
+.remark-slide-content h1 {
+    font-size:65px;
+}
+
+.remark-slide-content {
+    font-size: 27.5px;
+}
+
+.highlight-text {
+  color:#04b8a6;
+  font-weight:bold;
+}
