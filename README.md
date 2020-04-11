@@ -41,6 +41,59 @@ ggplot(mtcars, aes(wt, mpg)) +
      labs(title = "A basic example plot",
           subtitle = "A little more detail in subtitle?") +
      theme_leary()
+#> Warning in grid.Call(C_stringMetric, as.graphicsAnnot(x$label)): font family not
+#> found in Windows font database
+
+#> Warning in grid.Call(C_stringMetric, as.graphicsAnnot(x$label)): font family not
+#> found in Windows font database
+
+#> Warning in grid.Call(C_stringMetric, as.graphicsAnnot(x$label)): font family not
+#> found in Windows font database
+
+#> Warning in grid.Call(C_stringMetric, as.graphicsAnnot(x$label)): font family not
+#> found in Windows font database
+#> Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
+#> family not found in Windows font database
+
+#> Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
+#> family not found in Windows font database
+
+#> Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
+#> family not found in Windows font database
+
+#> Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
+#> family not found in Windows font database
+
+#> Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
+#> family not found in Windows font database
+
+#> Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
+#> family not found in Windows font database
+
+#> Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
+#> family not found in Windows font database
+
+#> Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
+#> family not found in Windows font database
+
+#> Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
+#> family not found in Windows font database
+
+#> Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
+#> family not found in Windows font database
+
+#> Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
+#> family not found in Windows font database
+
+#> Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
+#> family not found in Windows font database
+#> Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+#> font family not found in Windows font database
+#> Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
+#> family not found in Windows font database
+
+#> Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
+#> family not found in Windows font database
 ```
 
 <img src="man/figures/README-example1-1.png" width="70%" />
@@ -54,35 +107,6 @@ see_pkg_funcs(learylib)
 #> [1] "leary_html"      "not_in"          "see_lib_paths"   "see_pkg_funcs"  
 #> [5] "theme_leary"     "update_rprofile"
 ```
-
-## Resources used
-
-Shout out to Hadley Wickham, Jenny Bryan, Jim Hester, and the many other
-developers building R packages that help people build R packages. I
-would not have gotten this far without those tools to make the process
-simple. I created the initial version of this package in a matter of
-days, with limited experience in package development. If I can do it,
-others can as well. And it was fun\! In case anyone sees this who is
-considering building their own package, here are some resources I found
-helpful. Also for me when I forget where I found something.
-
-  - [R packages](%22http://r-pkgs.had.co.nz%22) by Hadley Wickham - He
-    wrote the book on writing R packages (literally)
-
-  - R Package Documentation (built with `pkgdown`)
-    
-      - [usethis](https://usethis.r-lib.org) for package development.
-      - [devtools](https://devtools.r-lib.org) for package development.
-      - [pkgdown](https://pkgdown.r-lib.org) easily create a website for
-        your package & documentation
-
-  - Blogs
-    
-      - [Writing an R package
-        fromScratch](https://hilaryparker.com/2014/04/29/writing-an-r-package-from-scratch/)
-        by Hilary Parker - Great resource I have gone back to many
-        times. Helped me greatly the first time I looked into package
-        development and I still Google to find this exact blog.
 
 ## Contributions
 

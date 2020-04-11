@@ -29,10 +29,16 @@ theme_leary <- function(base_size = 12,
     ggplot2::theme_minimal(base_size = base_size, base_family=base_family) +
     ggplot2::theme(title = element_text(colour = "#132257"),
                    plot.title = element_text(size = rel(2.0),
-                                                hjust = 0, face = "bold"),
-                   plot.subtitle = element_text(size = rel(1.15),
-                                                hjust = 0, face = "bold"),
-                   axis.title = element_text(size = rel(1.25), face = "bold")
+                                             hjust = 0,
+                                             face = "bold"),
+                   plot.subtitle = element_text(size = rel(1.25),
+                                                hjust = 0,
+                                                face = "bold"),
+                   axis.title = element_text(size = rel(1.45),
+                                             face = "bold"),
+                   axis.text  = element_text(size = rel(1.10),
+                                             face= "bold",
+                                             color = "#132257")
     )
   return(plot.out)
 }

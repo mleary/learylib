@@ -10,7 +10,6 @@
 #'
 #' @export
 
-
 see_lib_paths <- function() {
   if (length(.libPaths()) > 1) {
     msg <- "Using libraries at paths:\n"

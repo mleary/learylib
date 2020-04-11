@@ -7,7 +7,6 @@
 #'     future functions such as update_gitignore.
 #'
 
-
 text_from_github <- function(url){
   github.text <- readr::read_file(url)
   return(github.text)

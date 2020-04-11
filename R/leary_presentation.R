@@ -5,8 +5,6 @@
 #'     select From Template > Leary Presentation
 #'
 
-
-
 leary_presentation <- function(){
 
 }

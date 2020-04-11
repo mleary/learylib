@@ -19,7 +19,6 @@
 #' @export
 #'
 
-
 update_rprofile <- function(local.rprofile.path = "~/.Rprofile",
   url = 'https://raw.githubusercontent.com/mleary/dotfiles/master/.Rprofile'){
     rprofile <- text_from_github(url = url)
