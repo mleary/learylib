@@ -32,6 +32,8 @@ class: center, middle
 
 # Highlight Text
 
-You can draw attention to<span class="highlight-text">certain text</span> with highlight-text
+You can draw attention to <span class="highlight-text">certain text</span> with highlight-text
 
 ---
+
+
