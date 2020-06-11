@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+/*
+#132257 - Spurs Blue
+#2e2e2e - Dark Grey
+*/
+
+h1 {
+  font-family: 'Cabin', sans-serif;
+  font-weight: 400;
+  color: #04b8a6;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: 'Cabin', sans-serif;
+  font-weight: 400;
+  color: #2e2e2e;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #2e2e2e;
+  font-size: 2em;
+}
+
+

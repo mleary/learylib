@@ -1,4 +1,4 @@
-#' Personalized rmarkdow::html_document template
+#' Personalized rmarkdown::html_document template
 #'
 #' @param toc if TRUE, displays the table of contents
 #' @param ... additional arguments provided to \@code{html_document}

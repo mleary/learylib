@@ -2,7 +2,7 @@
 % Please edit documentation in R/not_in.R
 \name{not_in}
 \alias{not_in}
-\title{Deterimine if value(s) are NOT in another value or set.}
+\title{Determine if value(s) are NOT in another value or set.}
 \usage{
 not_in(x, y)
 }
@@ -12,7 +12,7 @@ not_in(x, y)
 \item{y}{single value or vector}
 }
 \description{
-Deterimine if value(s) are NOT in another value or set.
+Determine if value(s) are NOT in another value or set.
 }
 \details{
 This is a helper function to see if values are NOT IN other values.

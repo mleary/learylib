@@ -34,6 +34,7 @@ Using `theme_leary` with the `mtcars` dataset.
 ``` r
 library(learylib)
 library(ggplot2)
+#> Warning: package 'ggplot2' was built under R version 3.6.3
 ## basic example code
 
 ggplot(mtcars, aes(wt, mpg)) +
@@ -51,41 +52,9 @@ Using `see_pkg_funcs` to see all the functions within a package.
 library(learylib)
 
 see_pkg_funcs(learylib)
-#> [1] "leary_html"         "leary_presentation" "not_in"            
-#> [4] "see_lib_paths"      "see_pkg_funcs"      "theme_leary"       
-#> [7] "update_rprofile"
+#> [1] "clear_rprofile"  "leary_html"      "not_in"          "see_lib_paths"  
+#> [5] "see_pkg_funcs"   "theme_leary"     "update_rprofile"
 ```
-
-## Resources used
-
-Shout out to Hadley Wickham, Jenny Bryan, Jim Hester, and the many other
-developers building R packages that help people build R packages. I
-would not have gotten this far without those tools to make the process
-simple. I created the initial version of this package in a matter of
-days, with limited experience in package development. If I can do it,
-others can as well. And it was fun\! In case anyone sees this who is
-considering building their own package, here are some resources I found
-helpful. Also for me when I forget where I found something.
-
-  - [R packages](%22http://r-pkgs.had.co.nz%22) by Hadley Wickham - He
-    wrote the book on writing R packages (literally)
-
-  - R Package Documentation (built with `pkgdown`)
-    
-      - Two super helpful pacakges -
-        [usethis](%22https://usethis.r-lib.org%22) &
-        [devtools](%22https://devtools.r-lib.org%22) for package
-        development.
-      - [pkgdown](https://pkgdown.r-lib.org) easily create a website for
-        your package & documentation
-
-  - Blogs
-    
-      - General blog post on package development- [Writing an R package
-        fromScratch](%22https://hilaryparker.com/2014/04/29/writing-an-r-package-from-scratch/%22)
-        by Hilary Parker - Great resource I have gone back to many
-        times. Helped me greatly the first time I looked into package
-        development and I still Google to find this exact blog.
 
 ## Contributions
 

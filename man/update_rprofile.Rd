@@ -11,7 +11,7 @@ update_rprofile(
 }
 \arguments{
 \item{local.rprofile.path}{character value.  Path to local .Rprofile.  Defaults to
-commmon "~/.Rprofile".}
+common "~/.Rprofile".}
 
 \item{url}{character value. URL to RAW github text file with Rprofile template}
 }

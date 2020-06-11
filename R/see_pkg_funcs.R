@@ -14,7 +14,6 @@
 #'
 #' @export
 
-
 see_pkg_funcs <-function(package, all.names = FALSE){
   package <- deparse(substitute(package))
   tryCatch(

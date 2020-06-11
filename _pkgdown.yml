@@ -8,7 +8,6 @@ reference:
     desc: "Formats for producing documents, slides, etc."
     contents:
       - leary_html
-      - leary_presentation
 
   - title: "Helper functions"
     desc: "Some basic helper functions I use from time to time"

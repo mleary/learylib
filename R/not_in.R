@@ -1,4 +1,4 @@
-#' Deterimine if value(s) are NOT in another value or set.
+#' Determine if value(s) are NOT in another value or set.
 #'
 #' @param x single value or vector
 #' @param y single value or vector
@@ -17,7 +17,6 @@
 #' "test" %>% not_in(c("quiz", "test"))
 #'
 #' @export
-
 
 not_in <- function(x, y){
   !(x %in% y)

@@ -1,17 +1,17 @@
 ---
-title: "May I present to you, my presentation"
-subtitle: "Please let me introduce myself"
-author: "Matt Leary"
-date: "XX, XXXXX (updated: `r Sys.Date()`)"
+title: "My presentation"
+params:
+  author: "Matt Leary"
+  date: "Date Here"
 output:
   xaringan::moon_reader:
-    css: ["default", "leary-theme.css", "fonts.css"]
-    seal: false 
+    css: ["default", "css/leary-theme.css", "css/fonts.css"]
+    seal: false
+    lib_dir: libs 
     nature:
-      highlightStyle: dracula
+      highlightStyle: github
       highlightLanguage: ["r", "yaml", "markdown"]
       highlightLines: true
-      countIncrementalSlides: false
       ratio: "16:9"
 
 ---
@@ -26,11 +26,14 @@ class: title-slide, center, bottom
 
 ### `r params$author`  |  `r params$date`
 
+
 ---
 class: center, middle
 
-# xaringan
+# Highlight Text
 
-### /ʃaː.'riŋ.ɡan/
+You can draw attention to <span class="highlight-text">certain text</span> with highlight-text
 
 ---
+
+
