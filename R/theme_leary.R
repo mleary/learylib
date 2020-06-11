@@ -1,7 +1,6 @@
 #' Minimal ggplot2 theme
 #'
 #' @param base_size base font size
-#' @param base_family base font family
 #' @param ... Other arguments passed to \code{theme_leary}
 #'
 #' @importFrom ggplot2 element_text rel
@@ -22,23 +21,15 @@
 #'
 #' @export
 
-theme_leary <- function(base_size = 12,
-                        base_family = "Helvetica",
-                        ...){
+theme_leary <- function(base_size = 12, ...){
   plot.out <-
-    ggplot2::theme_minimal(base_size = base_size, base_family=base_family) +
-    ggplot2::theme(title = element_text(colour = "#132257"),
-                   plot.title = element_text(size = rel(2.0),
-                                             hjust = 0,
-                                             face = "bold"),
+    ggplot2::theme_minimal(base_size = base_size) +
+    ggplot2::theme(plot.title = element_text(size = rel(2.0),
+                                             hjust = 0),
                    plot.subtitle = element_text(size = rel(1.25),
-                                                hjust = 0,
-                                                face = "bold"),
-                   axis.title = element_text(size = rel(1.45),
-                                             face = "bold"),
-                   axis.text  = element_text(size = rel(1.10),
-                                             face= "bold",
-                                             color = "#132257")
+                                                hjust = 0),
+                   axis.title = element_text(size = rel(1.45)),
+                   axis.text  = element_text(size = rel(1.10))
     )
   return(plot.out)
 }
