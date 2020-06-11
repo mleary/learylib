@@ -16,6 +16,8 @@ reference:
       - see_lib_paths
       - not_in
       - update_rprofile
+      - clear_rprofile
+      - copy_to_clipboard
 
   - title: "Plotting functions"
     desc: "ggplot themes & plotting functions"

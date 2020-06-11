@@ -52,8 +52,9 @@ Using `see_pkg_funcs` to see all the functions within a package.
 library(learylib)
 
 see_pkg_funcs(learylib)
-#> [1] "clear_rprofile"  "leary_html"      "not_in"          "see_lib_paths"  
-#> [5] "see_pkg_funcs"   "theme_leary"     "update_rprofile"
+#> [1] "clear_rprofile"    "copy_to_clipboard" "leary_html"       
+#> [4] "not_in"            "see_lib_paths"     "see_pkg_funcs"    
+#> [7] "theme_leary"       "update_rprofile"
 ```
 
 ## Contributions
