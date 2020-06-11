@@ -99,66 +99,15 @@
      <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/geom_point.html">geom_point</a></span>() +
      <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/labs.html">labs</a></span>(<span class="kw">title</span> <span class="kw">=</span> <span class="st">"A basic example plot"</span>,
           <span class="kw">subtitle</span> <span class="kw">=</span> <span class="st">"A little more detail in subtitle?"</span>) +
-     <span class="fu"><a href="reference/theme_leary.html">theme_leary</a></span>()
-<span class="co">#&gt; Warning in grid.Call(C_stringMetric, as.graphicsAnnot(x$label)): font family not</span>
-<span class="co">#&gt; found in Windows font database</span>
-<span class="co">#&gt; Warning in grid.Call(C_stringMetric, as.graphicsAnnot(x$label)): font family not</span>
-<span class="co">#&gt; found in Windows font database</span>
-
-<span class="co">#&gt; Warning in grid.Call(C_stringMetric, as.graphicsAnnot(x$label)): font family not</span>
-<span class="co">#&gt; found in Windows font database</span>
-
-<span class="co">#&gt; Warning in grid.Call(C_stringMetric, as.graphicsAnnot(x$label)): font family not</span>
-<span class="co">#&gt; found in Windows font database</span>
-<span class="co">#&gt; Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font</span>
-<span class="co">#&gt; family not found in Windows font database</span>
-
-<span class="co">#&gt; Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font</span>
-<span class="co">#&gt; family not found in Windows font database</span>
-
-<span class="co">#&gt; Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font</span>
-<span class="co">#&gt; family not found in Windows font database</span>
-
-<span class="co">#&gt; Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font</span>
-<span class="co">#&gt; family not found in Windows font database</span>
-
-<span class="co">#&gt; Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font</span>
-<span class="co">#&gt; family not found in Windows font database</span>
-
-<span class="co">#&gt; Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font</span>
-<span class="co">#&gt; family not found in Windows font database</span>
-
-<span class="co">#&gt; Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font</span>
-<span class="co">#&gt; family not found in Windows font database</span>
-
-<span class="co">#&gt; Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font</span>
-<span class="co">#&gt; family not found in Windows font database</span>
-
-<span class="co">#&gt; Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font</span>
-<span class="co">#&gt; family not found in Windows font database</span>
-
-<span class="co">#&gt; Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font</span>
-<span class="co">#&gt; family not found in Windows font database</span>
-
-<span class="co">#&gt; Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font</span>
-<span class="co">#&gt; family not found in Windows font database</span>
-
-<span class="co">#&gt; Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font</span>
-<span class="co">#&gt; family not found in Windows font database</span>
-<span class="co">#&gt; Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :</span>
-<span class="co">#&gt; font family not found in Windows font database</span>
-<span class="co">#&gt; Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font</span>
-<span class="co">#&gt; family not found in Windows font database</span>
-
-<span class="co">#&gt; Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font</span>
-<span class="co">#&gt; family not found in Windows font database</span></pre></div>
+     <span class="fu"><a href="reference/theme_leary.html">theme_leary</a></span>()</pre></div>
 <p><img src="reference/figures/README-example1-1.png" width="70%"></p>
 <p>Using <code>see_pkg_funcs</code> to see all the functions within a package.</p>
 <div class="sourceCode" id="cb3"><pre class="r"><span class="fu"><a href="https://rdrr.io/r/base/library.html">library</a></span>(<span class="no">learylib</span>)
 
 <span class="fu"><a href="reference/see_pkg_funcs.html">see_pkg_funcs</a></span>(<span class="no">learylib</span>)
-<span class="co">#&gt; [1] "leary_html"      "not_in"          "see_lib_paths"   "see_pkg_funcs"  </span>
-<span class="co">#&gt; [5] "theme_leary"     "update_rprofile"</span></pre></div>
+<span class="co">#&gt; [1] "clear_rprofile"    "copy_to_clipboard" "leary_html"       </span>
+<span class="co">#&gt; [4] "not_in"            "see_lib_paths"     "see_pkg_funcs"    </span>
+<span class="co">#&gt; [7] "theme_leary"       "update_rprofile"</span></pre></div>
 </div>
 <div id="contributions" class="section level2">
 <h2 class="hasAnchor">
@@ -196,7 +145,7 @@
 <h2>Dev status</h2>
 <ul class="list-unstyled">
 <li><a href="https://www.tidyverse.org/lifecycle/#experimental"><img src="https://img.shields.io/badge/lifecycle-experimental-orange.svg" alt="Lifecycle: experimental"></a></li>
-<li><a href="https://travis-ci.org/mleary/learylib"><img src="https://travis-ci.org/mleary/learylib.svg?branch=master" alt="Travis build status"></a></li>
+<li><a href="https://github.com/mleary/learylib/actions"><img src="https://github.com/mleary/learylib/workflows/R-CMD-check/badge.svg" alt="R build status"></a></li>
 </ul>
 </div>
 </div>
