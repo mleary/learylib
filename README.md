@@ -7,8 +7,8 @@
 
 [![Lifecycle:
 experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
-[![Travis build
-status](https://travis-ci.org/mleary/learylib.svg?branch=master)](https://travis-ci.org/mleary/learylib)
+[![R build
+status](https://github.com/mleary/learylib/workflows/R-CMD-check/badge.svg)](https://github.com/mleary/learylib/actions)
 <!-- badges: end -->
 
 The goal of **learylib** is to easily manage a few personal functions
