@@ -1,6 +1,6 @@
 Package: learylib
 Title: Personal R package for Matt Leary
-Version: 0.0.2
+Version: 0.5.0
 Authors@R: 
     person(given = "Matt",
            family = "Leary",
