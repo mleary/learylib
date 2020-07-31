@@ -4,19 +4,14 @@ home:
   strip_header: true
 
 reference:
-  - title: "Rmarkdown templates"
-    desc: "Formats for producing documents, slides, etc."
-    contents:
-      - leary_html
-
   - title: "Helper functions"
     desc: "Some basic helper functions I use from time to time"
     contents:
       - see_pkg_funcs
       - see_lib_paths
       - not_in
-      - update_rprofile
-      - clear_rprofile
+      - rprofile_clear
+      - rprofile_update
       - copy_to_clipboard
 
   - title: "Plotting functions"

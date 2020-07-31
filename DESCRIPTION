@@ -1,23 +1,22 @@
 Package: learylib
 Title: Personal R package for Matt Leary
-Version: 0.0.2
+Version: 0.5.0
 Authors@R: 
     person(given = "Matt",
            family = "Leary",
            role = c("aut", "cre"),
            email = "matt.leary@protonmail.com")
 Maintainer: Matt Leary <matt.leary@protonmail.com>
-Description: R functions & templates I developed and want to use.
+Description: R functions I find useful.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.1.0
 Imports: 
-    rmarkdown,
     ggplot2,
-    xaringan,
     dplyr,
-    readr
+    readr,
+    usethis
 Suggests: 
     spelling
 Language: en-US
