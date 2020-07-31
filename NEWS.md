@@ -1,3 +1,10 @@
+# learylib 0.5.0
+## Nearing a final first draft.  This version is a signifigant step forward. 
+
+* Removes presentation & markdown templates for now (formats were not good)
+* updates rprofile functions to start with`rprofile_*`
+* clean up description file and readme.rmd
+
 # learylib 0.0.2
 
 * Simplified `theme_leary`

@@ -52,9 +52,9 @@ Using `see_pkg_funcs` to see all the functions within a package.
 library(learylib)
 
 see_pkg_funcs(learylib)
-#> [1] "clear_rprofile"    "copy_to_clipboard" "leary_html"       
-#> [4] "not_in"            "see_lib_paths"     "see_pkg_funcs"    
-#> [7] "theme_leary"       "update_rprofile"
+#> [1] "copy_to_clipboard" "not_in"            "rprofile_clear"   
+#> [4] "rprofile_update"   "see_lib_paths"     "see_pkg_funcs"    
+#> [7] "theme_leary"
 ```
 
 ## Contributions
@@ -62,3 +62,13 @@ see_pkg_funcs(learylib)
 I can’t imagine why anyone would contribute to this, but hey it would be
 cool if you did\! Feel free to submit a pull request or contact me if
 you want to add something.
+
+## To do items
+
+  - Create a xarignan presentation template
+  - Create Rmarkdown template
+  - Clean up ggplot theme, maybe create a color pallette
+  - Explore pkgdown, usethis, etc., for additional capabilities
+  - Learn about package builds and checks | confirm how to make sure
+    README.md is updated from README.RMD, pkgdown docs are updated, etc.
+  - Add unit tests

@@ -66,6 +66,7 @@ I can't imagine why anyone would contribute to this, but hey it would be cool if
 
 ## To do items
 * Create a xarignan presentation template
+* Create Rmarkdown template
 * Clean up ggplot theme, maybe create a color pallette
 * Explore pkgdown, usethis, etc., for additional capabilities
 * Learn about package builds and checks | confirm how to make sure README.md is updated from README.RMD, pkgdown docs are updated, etc.
