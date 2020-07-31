@@ -18,7 +18,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/v4-shims.min.css" integrity="sha256-wZjR52fzng1pJHwx4aV2AO3yyTOXrcDW7jBpJtTwVxw=" crossorigin="anonymous">
 <!-- clipboard.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><!-- headroom.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/headroom.min.js" integrity="sha256-AsUX4SJE1+yuDu5+mAVzJbuYNPHj/WroHuZ8Ir/CkE0=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/jQuery.headroom.min.js" integrity="sha256-ZX/yNShbjqsohH1k95liqY9Gd8uOiE1S4vZc+9KQ1K4=" crossorigin="anonymous"></script><!-- pkgdown --><link href="pkgdown.css" rel="stylesheet">
 <script src="pkgdown.js"></script><meta property="og:title" content="Personal R package for Matt Leary">
-<meta property="og:description" content="R functions &amp; templates I developed and want to use.">
+<meta property="og:description" content="R functions I find useful.">
 <meta property="og:image" content="/logo.png">
 <!-- mathjax --><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha256-nvJJv9wWKEm88qvoQl9ekL2J+k/RWIsaSScxxlsrv8k=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/config/TeX-AMS-MML_HTMLorMML.js" integrity="sha256-84DKXVJXs0/F8OTMzX4UR909+jtl4G7SPypPavF+GfA=" crossorigin="anonymous"></script><!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -38,7 +38,7 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="index.html">learylib</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.0.2</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.5.0</span>
       </span>
     </div>
 
@@ -105,14 +105,26 @@
 <div class="sourceCode" id="cb3"><pre class="r"><span class="fu"><a href="https://rdrr.io/r/base/library.html">library</a></span>(<span class="no">learylib</span>)
 
 <span class="fu"><a href="reference/see_pkg_funcs.html">see_pkg_funcs</a></span>(<span class="no">learylib</span>)
-<span class="co">#&gt; [1] "clear_rprofile"    "copy_to_clipboard" "leary_html"       </span>
-<span class="co">#&gt; [4] "not_in"            "see_lib_paths"     "see_pkg_funcs"    </span>
-<span class="co">#&gt; [7] "theme_leary"       "update_rprofile"</span></pre></div>
+<span class="co">#&gt; [1] "copy_to_clipboard" "not_in"            "rprofile_clear"   </span>
+<span class="co">#&gt; [4] "rprofile_update"   "see_lib_paths"     "see_pkg_funcs"    </span>
+<span class="co">#&gt; [7] "theme_leary"</span></pre></div>
 </div>
 <div id="contributions" class="section level2">
 <h2 class="hasAnchor">
 <a href="#contributions" class="anchor"></a>Contributions</h2>
 <p>I can’t imagine why anyone would contribute to this, but hey it would be cool if you did! Feel free to submit a pull request or contact me if you want to add something.</p>
+</div>
+<div id="to-do-items" class="section level2">
+<h2 class="hasAnchor">
+<a href="#to-do-items" class="anchor"></a>To do items</h2>
+<ul>
+<li>Create a xarignan presentation template</li>
+<li>Create Rmarkdown template</li>
+<li>Clean up ggplot theme, maybe create a color pallette</li>
+<li>Explore pkgdown, usethis, etc., for additional capabilities</li>
+<li>Learn about package builds and checks | confirm how to make sure README.md is updated from README.RMD, pkgdown docs are updated, etc.</li>
+<li>Add unit tests</li>
+</ul>
 </div>
 
   </div>
