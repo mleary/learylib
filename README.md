@@ -18,9 +18,9 @@ building out a package.
 
 ## Installation
 
-You can install the latest version of learylib from my Github with the
-**devtools** package. Given the limited scope & use of **learylib**, it
-will always live on Github.
+You can install the latest version of learylib from my Github repo with
+the **devtools** package. Given the limited scope & use of **learylib**,
+it will always live on Github.
 
 ``` r
 install.packages("devtools")
