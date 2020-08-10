@@ -52,7 +52,7 @@ library(learylib)
 
 see_pkg_funcs(learylib)
 #> [1] "copy_to_clipboard" "not_in"            "rprofile_clear"   
-#> [4] "rprofile_update"   "search_lasterror"  "see_lib_paths"    
+#> [4] "rprofile_update"   "search_last_error" "see_lib_paths"    
 #> [7] "see_pkg_funcs"     "theme_leary"
 ```
 
