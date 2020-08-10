@@ -11,10 +11,10 @@ experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](h
 status](https://github.com/mleary/learylib/workflows/R-CMD-check/badge.svg)](https://github.com/mleary/learylib/actions)
 <!-- badges: end -->
 
-The goal of **learylib** is to easily manage a few personal functions
-and themes I find useful. A secondary goal is to explore package
-development in R, using **pkgdown**, **usethis**, & **devtools** to
-practice fully building out a package.
+The goal of **learylib** is to easily manage a few personal functions I
+find useful. A secondary goal is to explore package development in R,
+using **pkgdown**, **usethis**, & **devtools** to practice fully
+building out a package.
 
 ## Installation
 
