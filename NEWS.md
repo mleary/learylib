@@ -1,5 +1,10 @@
+
+# learylib 0.5.1
+
+* added `search_last_error` function
+
 # learylib 0.5.0
-## Nearing a final first draft.  This version is a signifigant step forward. 
+## Nearing a final first draft.  This version is a significant step forward. 
 
 * Removes presentation & markdown templates for now (formats were not good)
 * updates rprofile functions to start with`rprofile_*`
@@ -9,7 +14,7 @@
 
 * Simplified `theme_leary`
 * Added `clear_rprofile`
-* Minor chagnes to structure and format
+* Minor changes to structure and format
 
 # learylib 0.0.1
 
@@ -17,4 +22,4 @@
 * Added News.md, License.md, Description, etc.
 * Added function `theme_leary`
 * Added function `see_pkg_funcs`
-* Added rmarkdownn template, `leary_html`
+* Added rmarkdown template, `leary_html`

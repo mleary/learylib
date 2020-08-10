@@ -23,7 +23,6 @@ knitr::opts_chunk$set(
 
 The goal of **learylib** is to easily manage a few personal functions and themes I find useful.  A secondary goal is to explore package development in R, using **pkgdown**, **usethis**, & **devtools** to practice fully building out a package. 
 
-
 ## Installation
 
 You can install the latest version of learylib from my Github with the **devtools** package.  Given the limited scope & use of **learylib**, it will always live on Github.
@@ -67,7 +66,7 @@ I can't imagine why anyone would contribute to this, but hey it would be cool if
 ## To do items
 * Create a xarignan presentation template
 * Create Rmarkdown template
-* Clean up ggplot theme, maybe create a color pallette
+* Clean up ggplot theme, maybe create a color palette
 * Explore pkgdown, usethis, etc., for additional capabilities
 * Learn about package builds and checks | confirm how to make sure README.md is updated from README.RMD, pkgdown docs are updated, etc.
 * Add unit tests

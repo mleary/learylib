@@ -34,7 +34,6 @@ Using `theme_leary` with the `mtcars` dataset.
 ``` r
 library(learylib)
 library(ggplot2)
-#> Warning: package 'ggplot2' was built under R version 3.6.3
 ## basic example code
 
 ggplot(mtcars, aes(wt, mpg)) +
@@ -53,8 +52,8 @@ library(learylib)
 
 see_pkg_funcs(learylib)
 #> [1] "copy_to_clipboard" "not_in"            "rprofile_clear"   
-#> [4] "rprofile_update"   "see_lib_paths"     "see_pkg_funcs"    
-#> [7] "theme_leary"
+#> [4] "rprofile_update"   "search_lasterror"  "see_lib_paths"    
+#> [7] "see_pkg_funcs"     "theme_leary"
 ```
 
 ## Contributions
@@ -67,7 +66,7 @@ you want to add something.
 
   - Create a xarignan presentation template
   - Create Rmarkdown template
-  - Clean up ggplot theme, maybe create a color pallette
+  - Clean up ggplot theme, maybe create a color palette
   - Explore pkgdown, usethis, etc., for additional capabilities
   - Learn about package builds and checks | confirm how to make sure
     README.md is updated from README.RMD, pkgdown docs are updated, etc.

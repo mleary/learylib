@@ -10,9 +10,14 @@ reference:
       - see_pkg_funcs
       - see_lib_paths
       - not_in
+      - copy_to_clipboard
+      - search_last_error
+
+  - title: "Rstudio session helpers"
+    desc: "Adjust session settings via .Rprofile"
+    contents:
       - rprofile_clear
       - rprofile_update
-      - copy_to_clipboard
 
   - title: "Plotting functions"
     desc: "ggplot themes & plotting functions"
@@ -26,3 +31,4 @@ navbar:
       href: reference/index.html
     - text: Releases
       href: news/index.html
+    -

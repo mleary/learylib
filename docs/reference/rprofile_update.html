@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>A function to update my .Rprofile from a version on Github — copy_to_clipboard • learylib</title>
+<title>A function to update my .Rprofile from a version on Github — rprofile_update • learylib</title>
 
 <!-- favicons -->
 <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
@@ -46,7 +46,7 @@
 
 
 
-<meta property="og:title" content="A function to update my .Rprofile from a version on Github — copy_to_clipboard" />
+<meta property="og:title" content="A function to update my .Rprofile from a version on Github — rprofile_update" />
 <meta property="og:description" content="A function to update my .Rprofile from a version on Github" />
 <meta property="og:image" content="/logo.png" />
 
@@ -117,39 +117,54 @@
   <div class="col-md-9 contents">
     <div class="page-header">
     <h1>A function to update my .Rprofile from a version on Github</h1>
-    <small class="dont-index">Source: <a href='https://github.com/mleary/learylib/blob/master/R/copy_to_clipboard.R'><code>R/copy_to_clipboard.R</code></a></small>
-    <div class="hidden name"><code>copy_to_clipboard.Rd</code></div>
+    <small class="dont-index">Source: <a href='https://github.com/mleary/learylib/blob/master/R/rprofile_update.R'><code>R/rprofile_update.R</code></a></small>
+    <div class="hidden name"><code>rprofile_update.Rd</code></div>
     </div>
 
     <div class="ref-description">
     <p>A function to update my .Rprofile from a version on Github</p>
     </div>
 
-    <pre class="usage"><span class='fu'>copy_to_clipboard</span>(<span class='no'>data.input</span>, <span class='kw'>row.names.input</span> <span class='kw'>=</span> <span class='fl'>FALSE</span>)</pre>
+    <pre class="usage"><span class='fu'>rprofile_update</span>(
+  <span class='kw'>open</span> <span class='kw'>=</span> <span class='fl'>TRUE</span>,
+  <span class='kw'>local.rprofile.path</span> <span class='kw'>=</span> <span class='st'>"~/.Rprofile"</span>,
+  <span class='kw'>url</span> <span class='kw'>=</span> <span class='st'>"https://raw.githubusercontent.com/mleary/dotfiles/main/.Rprofile"</span>
+)</pre>
 
     <h2 class="hasAnchor" id="arguments"><a class="anchor" href="#arguments"></a>Arguments</h2>
     <table class="ref-arguments">
     <colgroup><col class="name" /><col class="desc" /></colgroup>
     <tr>
-      <th>data.input</th>
-      <td><p>data.frame. Data frame desired to by moved outside of R</p></td>
+      <th>open</th>
+      <td><p>logical value. Defaults to opening the local .Rprofile via the
+usethis::edit_r_profile.  If False, will update the .Rprofile.</p></td>
     </tr>
     <tr>
-      <th>row.names.input</th>
-      <td><p>logical. Should row names be included in in the output
-data frame.  Defaults to FALSE.</p></td>
+      <th>local.rprofile.path</th>
+      <td><p>character value.  Path to local .Rprofile.  Defaults to
+common "~/.Rprofile".</p></td>
+    </tr>
+    <tr>
+      <th>url</th>
+      <td><p>character value. URL to RAW github text file with Rprofile template.
+Defaults to my .Rprofile template on github</p></td>
     </tr>
     </table>
 
     <h2 class="hasAnchor" id="details"><a class="anchor" href="#details"></a>Details</h2>
 
-    <p>This function takes a data frame and copies it to the computer clipboard,
-    allowing user to paste the data into excel, word, email, etc.</p>
+    <p>This function helps with editing one's .Rprofile.  It will open the
+    current .Rprofile by default.  If open set to FALSE, it updates the .Rprofile.
+    It defaults to taking a template .Rprofile from my github and updates the
+    current working sessions .Rprofile.  Note that it checks for the file at
+    the common "~/.Rprofile" location, but can be manually adjusted
+    for projects, etc.</p>
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
     <pre class="examples"><div class='input'><span class='fu'><a href='https://rdrr.io/r/base/library.html'>library</a></span>(<span class='no'>learylib</span>)
 
-<span class='fu'>copy_to_clipboard</span>(<span class='no'>mtcars</span>)</div></pre>
+<span class='fu'>rprofile_update</span>()  <span class='co'># using default settings</span></div><div class='output co'>#&gt; <span class='message'><span style='color: #BB0000;'>*</span><span> Edit </span><span style='color: #0000BB;'>'C:/Users/mattl/OneDrive/Documents/.Rprofile'</span><span></span></div><div class='output co'>#&gt; <span class='message'></span><span style='color: #BB0000;'>*</span><span> Restart R for changes to take effect</span></div><div class='input'>
+</div></span></pre>
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
     <nav id="toc" data-toggle="toc" class="sticky-top">

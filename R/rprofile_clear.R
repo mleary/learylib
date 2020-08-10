@@ -3,7 +3,7 @@
 #' @param local.rprofile.path character value.  Path to local .Rprofile.  Defaults to
 #'     common "~/.Rprofile".
 #'
-#' @details This function takes an existing Rprofile file and deletes any cusomization.
+#' @details This function takes an existing Rprofile file and deletes the text.
 #'     Note that it checks for the file at the common "~/.Rprofile" location, but can be
 #'     manually adjusted for projects, etc.
 #'

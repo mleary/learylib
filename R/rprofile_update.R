@@ -11,7 +11,7 @@
 #'
 #' @details This function helps with editing one's .Rprofile.  It will open the
 #'     current .Rprofile by default.  If open set to FALSE, it updates the .Rprofile.
-#'     It defaults to tkaing a template .Rprofile from my github and updates the
+#'     It defaults to taking a template .Rprofile from my github and updates the
 #'     current working sessions .Rprofile.  Note that it checks for the file at
 #'     the common "~/.Rprofile" location, but can be manually adjusted
 #'     for projects, etc.

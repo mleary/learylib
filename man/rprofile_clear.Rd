@@ -14,7 +14,7 @@ common "~/.Rprofile".}
 A function to update my .Rprofile from a version on Github
 }
 \details{
-This function takes an existing Rprofile file and deletes any cusomization.
+This function takes an existing Rprofile file and deletes the text.
     Note that it checks for the file at the common "~/.Rprofile" location, but can be
     manually adjusted for projects, etc.
 }
