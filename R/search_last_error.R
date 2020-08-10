@@ -1,4 +1,4 @@
-#' A function to google my last error message and help me solve debug quicker.
+#' Google search R error messages
 #'
 #'
 #' @param additonal.term character. Additional text to add to Google search after "R".

@@ -2,7 +2,7 @@
 % Please edit documentation in R/search_last_error.R
 \name{search_last_error}
 \alias{search_last_error}
-\title{A function to google my last error message and help me solve debug quicker.}
+\title{Google search R error messages}
 \usage{
 search_last_error(additonal.term = NULL)
 }
@@ -10,7 +10,7 @@ search_last_error(additonal.term = NULL)
 \item{additonal.term}{character. Additional text to add to Google search after "R".}
 }
 \description{
-A function to google my last error message and help me solve debug quicker.
+Google search R error messages
 }
 \details{
 This function takes the last error in my R session and Googles it
