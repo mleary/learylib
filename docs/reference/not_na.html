@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Determine if value(s) are NOT in another value or set. — not_in • learylib</title>
+<title>Determine if value(s) are NOT in another value or set. — not_na • learylib</title>
 
 <!-- favicons -->
 <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
@@ -46,7 +46,7 @@
 
 
 
-<meta property="og:title" content="Determine if value(s) are NOT in another value or set. — not_in" />
+<meta property="og:title" content="Determine if value(s) are NOT in another value or set. — not_na" />
 <meta property="og:description" content="Determine if value(s) are NOT in another value or set." />
 <meta property="og:image" content="/logo.png" />
 
@@ -117,15 +117,15 @@
   <div class="col-md-9 contents">
     <div class="page-header">
     <h1>Determine if value(s) are NOT in another value or set.</h1>
-    <small class="dont-index">Source: <a href='https://github.com/mleary/learylib/blob/master/R/not_in.R'><code>R/not_in.R</code></a></small>
-    <div class="hidden name"><code>not_in.Rd</code></div>
+    <small class="dont-index">Source: <a href='https://github.com/mleary/learylib/blob/master/R/not_na.R'><code>R/not_na.R</code></a></small>
+    <div class="hidden name"><code>not_na.Rd</code></div>
     </div>
 
     <div class="ref-description">
     <p>Determine if value(s) are NOT in another value or set.</p>
     </div>
 
-    <pre class="usage"><span class='fu'>not_in</span>(<span class='no'>x</span>, <span class='no'>y</span>)</pre>
+    <pre class="usage"><span class='fu'>not_na</span>(<span class='no'>x</span>)</pre>
 
     <h2 class="hasAnchor" id="arguments"><a class="anchor" href="#arguments"></a>Arguments</h2>
     <table class="ref-arguments">
@@ -134,29 +134,21 @@
       <th>x</th>
       <td><p>single value or vector</p></td>
     </tr>
-    <tr>
-      <th>y</th>
-      <td><p>single value or vector</p></td>
-    </tr>
     </table>
 
     <h2 class="hasAnchor" id="details"><a class="anchor" href="#details"></a>Details</h2>
 
-    <p>This is a helper function to see if values are NOT IN other values.
-    Mainly this helps me quickly check without having to negate the <!-- %in% function. -->
-    This is a test to see if this function is helpful, and might be deleted.
+    <p>This is a helper function to check for NOT NA.  This is mainly
+    to hel me quickly check without having to negate 'is.na' with '!is.na(x)'.
+    This is a test to see if this function is helpful, and might be deleted
     later on.</p>
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
     <pre class="examples"><div class='input'><span class='fu'><a href='https://rdrr.io/r/base/library.html'>library</a></span>(<span class='no'>learylib</span>)
-<span class='fu'><a href='https://rdrr.io/r/base/library.html'>library</a></span>(<span class='no'>dplyr</span>)</div><div class='output co'>#&gt; <span class='message'></span>
-#&gt; <span class='message'>Attaching package: 'dplyr'</span></div><div class='output co'>#&gt; <span class='message'>The following objects are masked from 'package:stats':</span>
-#&gt; <span class='message'></span>
-#&gt; <span class='message'>    filter, lag</span></div><div class='output co'>#&gt; <span class='message'>The following objects are masked from 'package:base':</span>
-#&gt; <span class='message'></span>
-#&gt; <span class='message'>    intersect, setdiff, setequal, union</span></div><div class='input'>
-<span class='st'>"test"</span> <span class='kw'>%&gt;%</span> <span class='fu'>not_in</span>(<span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span>(<span class='st'>"quiz"</span>, <span class='st'>"homework"</span>))</div><div class='output co'>#&gt; [1] TRUE</div><div class='input'>
-<span class='st'>"test"</span> <span class='kw'>%&gt;%</span> <span class='fu'>not_in</span>(<span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span>(<span class='st'>"quiz"</span>, <span class='st'>"test"</span>))</div><div class='output co'>#&gt; [1] FALSE</div><div class='input'>
+
+<span class='no'>x</span> <span class='kw'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span>(<span class='fl'>1</span>,<span class='fl'>2</span>,<span class='fl'>3</span>,<span class='fl'>NA</span>)
+
+<span class='fu'>not_na</span>(<span class='no'>x</span>)</div><div class='output co'>#&gt; [1]  TRUE  TRUE  TRUE FALSE</div><div class='input'>
 </div></pre>
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">

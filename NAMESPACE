@@ -2,6 +2,7 @@
 
 export(copy_to_clipboard)
 export(not_in)
+export(not_na)
 export(rprofile_clear)
 export(rprofile_update)
 export(search_last_error)

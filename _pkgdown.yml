@@ -10,8 +10,10 @@ reference:
       - see_pkg_funcs
       - see_lib_paths
       - not_in
+      - not_na
       - copy_to_clipboard
       - search_last_error
+
 
   - title: "Rstudio session helpers"
     desc: "Adjust session settings via .Rprofile"
@@ -29,6 +31,6 @@ navbar:
   left:
     - text: Functions & templates
       href: reference/index.html
-    - text: Releases
+    - text: Changelog
       href: news/index.html
     -
