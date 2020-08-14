@@ -2,7 +2,7 @@
 % Please edit documentation in R/not_na.R
 \name{not_na}
 \alias{not_na}
-\title{Determine if value(s) are NOT in another value or set.}
+\title{Determine if value(s) are NOT NA}
 \usage{
 not_na(x)
 }
@@ -10,7 +10,7 @@ not_na(x)
 \item{x}{single value or vector}
 }
 \description{
-Determine if value(s) are NOT in another value or set.
+Determine if value(s) are NOT NA
 }
 \details{
 This is a helper function to check for NOT NA.  This is mainly

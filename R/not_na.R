@@ -1,4 +1,4 @@
-#' Determine if value(s) are NOT in another value or set.
+#' Determine if value(s) are NOT NA
 #'
 #' @param x single value or vector
 #'
