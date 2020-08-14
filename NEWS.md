@@ -1,3 +1,7 @@
+# learylib 0.5.2 (August 14, 2020)
+
+* added `not_na` function
+
 
 # learylib 0.5.1
 
