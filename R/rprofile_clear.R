@@ -1,4 +1,4 @@
-#' A function to update my .Rprofile from a version on Github
+#' A function to clear my .Rprofile
 #'
 #' @param local.rprofile.path character value.  Path to local .Rprofile.  Defaults to
 #'     common "~/.Rprofile".

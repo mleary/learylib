@@ -7,3 +7,4 @@
 ^pkgdown$
 ^\.travis\.yml$
 ^\.github$
+^run-checks\.R$
