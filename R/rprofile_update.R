@@ -1,7 +1,7 @@
 #' A function to update my .Rprofile from a version on Github
 #'
 #'
-#' @param open logical value. Defaults to opening the local .Rprofile via the
+#' @param open.only logical value. Defaults to opening the local .Rprofile via the
 #'    usethis::edit_r_profile.  If False, will update the .Rprofile.
 #'
 #' @param local.rprofile.path character value.  Path to local .Rprofile.  Defaults to
@@ -10,8 +10,8 @@
 #'     Defaults to my .Rprofile template on github
 #'
 #' @details This function helps with editing one's .Rprofile.  It will open the
-#'     current .Rprofile by default.  If open set to FALSE, it updates the .Rprofile.
-#'     It defaults to taking a template .Rprofile from my github and updates the
+#'     current .Rprofile by default.  If open.only set to FALSE, it updates the .Rprofile
+#'     and then opens the .Rprofile.  It defaults to taking a template .Rprofile from my github and updates the
 #'     current working sessions .Rprofile.  Note that it checks for the file at
 #'     the common "~/.Rprofile" location, but can be manually adjusted
 #'     for projects, etc.
@@ -25,10 +25,10 @@
 #' @export
 #'
 
-rprofile_update <- function(open=TRUE,
+rprofile_update <- function(open.only=TRUE,
                             local.rprofile.path = "~/.Rprofile",
                             url = 'https://raw.githubusercontent.com/mleary/dotfiles/main/.Rprofile') {
-    if(open == TRUE){
+    if(open.only == TRUE){
 
       usethis::edit_r_profile()
 
@@ -39,6 +39,7 @@ rprofile_update <- function(open=TRUE,
       if(base::file.exists(local.rprofile.path)) {
           base::writeLines(rprofile, local.rprofile.path)
           base::message("Rprofile Updated")
+          usethis::edit_r_profile()
       } else {
           base::message("Rprofile not found.  Check you file path for local .Rprofile.")
       }

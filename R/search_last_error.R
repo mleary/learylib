@@ -3,8 +3,8 @@
 #'
 #' @param additonal.term character. Additional text to add to Google search after "R".
 
-#' @details This function takes the last error in my R session and Googles it
-#'     for an answer. 93.4% of the time this will be to remember something I
+#' @details This function takes the last error in my R session and creates a Google search
+#'     for an answer. 93 percent of the time this will be to remember something I
 #'     have done in `{ggplot2}` 1,573 times before but forgot.  For example,
 #'     adding "ggplot" will search 'R, ggplot, {error message here}'. Heavily
 #'     borrowed from & influenced from David Robinson's github.

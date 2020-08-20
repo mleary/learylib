@@ -2,7 +2,7 @@
 % Please edit documentation in R/rprofile_clear.R
 \name{rprofile_clear}
 \alias{rprofile_clear}
-\title{A function to update my .Rprofile from a version on Github}
+\title{A function to clear my .Rprofile}
 \usage{
 rprofile_clear(local.rprofile.path = "~/.Rprofile")
 }
@@ -11,7 +11,7 @@ rprofile_clear(local.rprofile.path = "~/.Rprofile")
 common "~/.Rprofile".}
 }
 \description{
-A function to update my .Rprofile from a version on Github
+A function to clear my .Rprofile
 }
 \details{
 This function takes an existing Rprofile file and deletes the text.
