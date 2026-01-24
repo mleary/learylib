@@ -9,16 +9,18 @@ Authors@R:
 Maintainer: Matt Leary <matt.leary@protonmail.com>
 Description: R functions I find useful.
 License: MIT + file LICENSE
+Depends: R (>= 4.1.0)
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.1.1
-Imports: 
+Imports:
     ggplot2,
-    dplyr,
     readr,
     usethis
-Suggests: 
-    spelling
+Suggests:
+    spelling,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
 Language: en-US
 URL: https://github.com/mleary/learylib
 BugReports: https://github.com/mleary/learylib/issues
