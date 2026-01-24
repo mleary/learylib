@@ -1,11 +1,11 @@
-#' A function to update my .Rprofile from a version on Github
+#' Copy a data frame to the clipboard
 #'
-#' @param data.input data.frame. Data frame desired to by moved outside of R
-#' @param row.names.input logical. Should row names be included in in the output
-#'     data frame.  Defaults to FALSE.
+#' @param data data.frame. Data frame to be copied to the clipboard
+#' @param row_names logical. Should row names be included in the output.
+#'     Defaults to FALSE.
 #'
 #' @details This function takes a data frame and copies it to the computer clipboard,
-#'     allowing user to paste the data into excel, word, email, etc.
+#'     allowing the user to paste the data into Excel, Word, email, etc.
 #'
 #' @examples
 #' library(learylib)
@@ -14,9 +14,10 @@
 #'
 #' @export
 
-copy_to_clipboard <- function(data.input, row.names.input = FALSE){
-  utils::write.table(data.input,
-              file = paste0("clipboard-", utils::object.size(data.input)),
-              sep="\t",
-              row.names = row.names.input)
+copy_to_clipboard <- function(data, row_names = FALSE){
+  if (!requireNamespace("clipr", quietly = TRUE)) {
+    stop("Package 'clipr' is required for copy_to_clipboard(). Install it with: install.packages('clipr')")
+  }
+  
+  clipr::write_clip(data, row.names = row_names)
 }

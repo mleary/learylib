@@ -5,7 +5,7 @@
 #'     If FALSE, names which begin with a . are omitted.
 
 #' @details This is a helper to let me see the different functions offered by a
-#'    package. NOTE: The package most be installed & loaded (i.e. library(janitor))
+#'    package. NOTE: The package must be installed & loaded (i.e. library(janitor))
 #'
 #'@examples
 #' library(learylib)
@@ -21,7 +21,7 @@ see_pkg_funcs <-function(package, all.names = FALSE){
       pos = paste("package", package, sep = ":"),
       all.names = all.names
     ),
-  error = function(e) message(paste("Error:  Is the", package, "packge installed/loaded?"))
+  error = function(e) message(paste("Error:  Is the", package, "package installed/loaded?"))
   )
 }
 

@@ -4,10 +4,10 @@
 \alias{search_last_error}
 \title{Google search R error messages}
 \usage{
-search_last_error(additonal.term = NULL)
+search_last_error(additional_term = NULL)
 }
 \arguments{
-\item{additonal.term}{character. Additional text to add to Google search after "R".}
+\item{additional_term}{character. Additional text to add to Google search after "R".}
 }
 \description{
 Google search R error messages

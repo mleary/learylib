@@ -4,10 +4,10 @@
 \alias{rprofile_clear}
 \title{A function to clear my .Rprofile}
 \usage{
-rprofile_clear(local.rprofile.path = "~/.Rprofile")
+rprofile_clear(local_rprofile_path = "~/.Rprofile")
 }
 \arguments{
-\item{local.rprofile.path}{character value.  Path to local .Rprofile.  Defaults to
+\item{local_rprofile_path}{character value.  Path to local .Rprofile.  Defaults to
 common "~/.Rprofile".}
 }
 \description{

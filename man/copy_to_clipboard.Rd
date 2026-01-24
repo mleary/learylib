@@ -4,12 +4,12 @@
 \alias{copy_to_clipboard}
 \title{A function to update my .Rprofile from a version on Github}
 \usage{
-copy_to_clipboard(data.input, row.names.input = FALSE)
+copy_to_clipboard(data, row_names = FALSE)
 }
 \arguments{
-\item{data.input}{data.frame. Data frame desired to by moved outside of R}
+\item{data}{data.frame. Data frame desired to by moved outside of R}
 
-\item{row.names.input}{logical. Should row names be included in in the output
+\item{row_names}{logical. Should row names be included in the output
 data frame.  Defaults to FALSE.}
 }
 \description{

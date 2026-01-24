@@ -1,6 +1,6 @@
 #' A function to clear my .Rprofile
 #'
-#' @param local.rprofile.path character value.  Path to local .Rprofile.  Defaults to
+#' @param local_rprofile_path character value.  Path to local .Rprofile.  Defaults to
 #'     common "~/.Rprofile".
 #'
 #' @details This function takes an existing Rprofile file and deletes the text.
@@ -15,12 +15,12 @@
 #' @export
 #'
 
-rprofile_clear <- function(local.rprofile.path = "~/.Rprofile") {
-    if(file.exists(local.rprofile.path)) {
-      writeLines("", local.rprofile.path)
+rprofile_clear <- function(local_rprofile_path = "~/.Rprofile") {
+    if(file.exists(local_rprofile_path)) {
+      writeLines("", local_rprofile_path)
       message("Rprofile cleared")
     } else {
-      message("Rprofile not found.  Check you file path for local .Rprofile.")
+      message("Rprofile not found.  Check your file path for local .Rprofile.")
     }
 }
 

@@ -17,7 +17,7 @@ Print functions within a package
 }
 \details{
 This is a helper to let me see the different functions offered by a
-   package. NOTE: The package most be installed & loaded (i.e. library(janitor))
+   package. NOTE: The package must be installed & loaded (i.e. library(janitor))
 }
 \examples{
 library(learylib)
